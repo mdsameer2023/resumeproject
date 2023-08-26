@@ -1,0 +1,92 @@
+body{
+    margin:0px;
+
+}
+#body-header{
+    height:70vh;
+    width:100vw;
+    
+    background-image:url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/og-macbook-pro-202301?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1670261864358");
+    opacity: 10;
+    background-size:cover;
+    background-position:center;
+    background-attachment: scroll;
+    padding-top:1.2rem;
+    
+    
+}
+.horizantal-list{
+    list-style:none;
+    padding-left: 0px;
+    margin:0px;
+}
+.horizantal-list li{
+    display:inline-block;
+    margin:0px 10px 10px 0px;
+    font-weight:100;
+    font-size:1rem;
+}
+.horizantal-list a{
+    color:white;
+    text-decoration:none;
+    
+}
+.nav-menu li a{
+    transition:color 0.5s,border-bottom 4s;
+}
+.nav-menu li a:hover{
+    color:lightgreen;
+    border-bottom:1px solid blue;
+}
+.text-center{
+    text-align: center;
+}
+#name-social-container{
+    margin-top:20vh;
+
+}
+
+#my-name{
+    font-size:5rem;
+    letter-spacing:0.1rem;
+    color:red;
+    font-size:800;
+    margin-bottom:0.5rem;
+    
+
+}
+.social-icon li a i {
+    padding:10px;
+    font-size:1rem;
+    border-radius:50%;
+}
+.social-icon li a i:hover{
+    box-shadow: 0px 0px 6px 4px red;
+
+}
+
+/* About Section */
+#about{
+    height:auto;
+    width:100%;
+    position:relative;
+}
+
+.my-image{
+    height:17rem;
+    width:17rem;
+    margin:auto;
+    margin-top:-8vh;
+    display: flex;
+    
+    
+    
+}
+ .my-image img{
+    height:70%;
+    width:70%;
+    border-radius:50%;
+    border:8px solid aqua;
+    
+    
+}

@@ -1,0 +1,10 @@
+#div1{
+    height: 300px;
+    width: 300px; 
+    background-color:blue;
+}
+#div2{
+    height:50%;
+    width:50%;
+    background-color:cyan;
+}

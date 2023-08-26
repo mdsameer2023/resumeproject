@@ -1,0 +1,29 @@
+
+html{
+    font-size:30px;
+}
+#div1{
+    height:4rem;
+    width:6rem;
+    background-color:cyan;
+
+  /*  border-width:2px;
+    border-style:solid;
+   border-color:red;*/
+   border: 4px solid red;
+    
+
+}
+#div2{
+    height:50%;
+    width:50%;
+    background-color:red;
+    border-width:2px;
+    border-color:blue;
+
+}
+#simple-para{
+    
+    border-left: 2px solid red;
+    
+}
